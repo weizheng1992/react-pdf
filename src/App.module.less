@@ -1,0 +1,175 @@
+// A4: 8.27*11.69inch，页边距0.75inch
+// width: 794px, height: 1090px
+.App {
+    text-align: center;
+    background: rgb(236, 236, 236);
+    font-size: 0px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    border-top: 1px solid #e8e8e8;
+    background: #e6e6e6;
+    z-index: 1;
+}
+
+.page {
+    display: inline-block;
+    width: 960px;
+    height: 1355px;
+    padding: 20px 40px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 2px;
+}
+
+.page1 {
+    .page;
+    font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+}
+
+.page2 {
+    .page;
+    color: #333;
+    font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+.explanation {
+    font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageHeader {
+    margin: 25px 0;
+}
+
+.skill {
+    font-size: 18px;
+    margin: 0
+}
+
+.skillInfo {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.line {
+    background: #173456;
+    height: 4px;
+}
+
+.titleBox {
+    margin: 0px 0px 10px;
+    display: flex;
+
+    .titleHeader {
+        font-size: 24px;
+
+        font-weight: 600;
+        width: 125px;
+
+    }
+
+    .lineFlex {
+        flex: 1;
+
+        .lineBox {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            .square {
+                width: 30px;
+                height: 30px;
+                background-color: #173456;
+            }
+
+            .hline {
+                flex: 1;
+                background-color: #173456;
+                height: 2px;
+            }
+
+            .sline {
+                width: 2px;
+                background-color: #173456;
+                height: 800px;
+                position: absolute;
+                top: 0;
+                left: 14px;
+            }
+
+            .highHeight {
+                height: 1200px;
+            }
+        }
+    }
+
+}
+
+.workExperience {
+    font-size: 16px;
+
+    .workInfo {
+        display: flex;
+        margin-bottom: 15px;
+
+        .workYear {
+            width: 140px;
+            letter-spacing: -1px;
+        }
+
+        .workCompany {
+            flex: 1;
+            padding-left: 20px;
+        }
+    }
+
+    .workDuty {
+        margin-left: 160px;
+    }
+
+    .pSubinfo {
+        margin-left: 30px;
+    }
+}
+
+.diamondBox {
+    position: relative;
+
+    .diamondIcon {
+        position: absolute;
+        left: -7px;
+        top: 3px;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: #173356;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        /* Internet Explorer */
+        -moz-transform: rotate(45deg);
+        /* Firefox */
+        -webkit-transform: rotate(45deg);
+        /* Safari 和 Chrome */
+        -o-transform: rotate(45deg);
+        /* Opera */
+    }
+}
