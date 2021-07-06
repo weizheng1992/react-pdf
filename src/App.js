@@ -280,10 +280,10 @@ class App extends Component {
                   <div className={`${styles.workCompany} `}>
                     <p>Github:https://github.com/weizheng1992</p>
                     <p />
-                    <p>热爱学习新技术，遇到困难刻苦钻研，攻破难关;</p>
                     <p>github 有vite和webpack5搭建的框架;</p>
-                    <p>对待工作:认真、负责;</p>
-                    <p>会有代码洁癖，结构整洁、清晰，划分规整;</p>
+                    <p>vite-ts-react使用的新技术vite2，reacthooks,immer,router6.0,antd,ts,redux搭建的后台管理</p>
+                    <p>react-node 使用nodejs，express,ts,jsonwebtoken,搭建的简易接口</p>
+                    <p>线上地址：http://8.142.136.225/ admin/13456 使用docker，jenkins，nginx等搭建</p>
                   </div>
                 </div>
               </div>
