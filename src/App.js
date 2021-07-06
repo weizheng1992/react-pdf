@@ -107,22 +107,21 @@ class App extends Component {
               </div>
               <Col span={20} offset={4} style={{ paddingLeft: 10 }}>
                 <p className={styles.skill}>
-                  三年 react native/react 开发经验:
+                  4年 react /2年react native 开发经验:
                 </p>
                 <p className={styles.skillInfo}>
-                  熟练掌握 react native/reactjs 框架;
-                </p>
-                <p className={styles.skillInfo}>
-                  熟练应用:react-redux
+                熟练应用:react-redux
                   、react-saga、webpack、antdesign、lodash、graphql、axios、
                   react-virtualized 等第三方库;
                 </p>
                 <p className={styles.skillInfo}>
-                  熟练 flex 布局，组件化，性能优化,Typescript，flow 等;
+                熟练 flex 布局，组件化，性能优化,Typescript,eslint,husky,vite,webpack 等;
                 </p>
-                <p className={styles.skillInfo}>学习 hooks;</p>
-                <p className={styles.skill}>两年 angular 开发经验;</p>
-                <p className={styles.skill}>学习 dart flutter;</p>
+                <p className={styles.skill}>
+                3年 vue 开发经验:
+                </p>
+                <p className={styles.skillInfo}> 使用pinia，vue-router,antd-vue等;</p>
+                <p className={styles.skill}>学习 dart flutter,docker,jenkins,nginx,nodejs等;</p>
                 <p className={styles.skill}>熟练使用 git 命令;</p>
               </Col>
             </Row>
@@ -281,10 +280,10 @@ class App extends Component {
                   <div className={`${styles.workCompany} `}>
                     <p>Github:https://github.com/weizheng1992</p>
                     <p />
-                    <p>对待工作:认真、负责;</p>
-                    <p>对待团体:团结、有爱;</p>
-                    <p>会有代码洁癖，结构整洁、清晰，划分规整;</p>
                     <p>热爱学习新技术，遇到困难刻苦钻研，攻破难关;</p>
+                    <p>github 有vite和webpack5搭建的框架;</p>
+                    <p>对待工作:认真、负责;</p>
+                    <p>会有代码洁癖，结构整洁、清晰，划分规整;</p>
                   </div>
                 </div>
               </div>

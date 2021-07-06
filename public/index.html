@@ -1,109 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>魏征简历</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="root"></div>
     <!-- DATA_INJECTION -->
     <script>
-        window.globalData = {
-            "userBasicInfo": {
-                "address": "北京",
-                "birthday": "1965.06.05",
-                "bloodGroup": "O",
-                "drinkFlag": false,
-                "examineDate": "2019.05.28",
-                "familyDiseaseHistory": "无",
-                "gender": "男",
-                "height": 175,
-                "name": "魏征",
-                "occupation": "工人",
-                "phone": "13681000269",
-                "rhesus": "+",
-                "smokeFlag": true,
-                "wechatNum": "123123",
-                "weight": 76,
-                "job": '前端/RN 开发工程师',
-                "age": "28",
-                "email": 'weizheng1004@qq.com',
-                "workExperience": [{
-                        "year": "2018.6-至今",
-                        "company": "金恪集团",
-                        "job": '前端工程师',
-                        "duty": ["1、负责微信公众号的开发和维护", "2、负责后台管理的开发"]
-                    },
-                    {
-                        "year": "2017.3-2018.4",
-                        "company": "深圳好彩有限公司",
-                        "job": '前端工程师',
-                        "duty": ["1、使用 React--native 开发移动端跨平台", "2、使用antdesign、react-router-dom等搭建管理后台",
-                            "3、负责后台管理的开发和维护，负责APP的开发和维护", "4、使用 webpack 搭建框架",
-                            "5、学习了Typescript 、react-redux 、react-saga"
-                        ]
-                    },
-                    {
-                        "year": "2015.2-2017.3",
-                        "company": "易网互通(北京)有限公司",
-                        "job": '前端工程师',
-                        "duty": ["1、负责微信公众号", "2、负责官网和 webView", "3、使用 React-native 开发移动端跨平台app"]
-                    },
-                    {
-                        "year": "2013.11-2015.1",
-                        "company": "河北新联动力电子商务有限公司",
-                        "job": '前端工程师',
-                        "duty": ["1、负责公司官网和h5开发", "2、网页制作及主流浏览器兼容问题的解决", "3、后端处理和联调"]
-                    },
-                ]
+      window.globalData = {
+        userBasicInfo: {
+          address: "北京",
+          birthday: "1965.06.05",
+          bloodGroup: "O",
+          drinkFlag: false,
+          examineDate: "2019.05.28",
+          familyDiseaseHistory: "无",
+          gender: "男",
+          height: 175,
+          name: "魏征",
+          occupation: "工人",
+          phone: "13681000269",
+          rhesus: "+",
+          smokeFlag: true,
+          wechatNum: "123123",
+          weight: 76,
+          job: "前端/RN 开发工程师",
+          age: "28",
+          email: "weizheng1004@qq.com",
+          workExperience: [
+            {
+              year: "2021.3-至今",
+              company: "开课吧",
+              job: "前端工程师",
+              duty: [
+                "1、负责微信公众号支付平台的开发和维护",
+                "2、负责koms后台管理的开发和优化",
+              ],
             },
-            "projectExperience": [{
-                    pName: '小云鹤微信公众号',
-                    func: ["整个公众号的开发维护，使用了react，redux，react-loadable等"],
-                    question: ["1、使用webpack4优化构建和加载性能", "2、使用react-loadable实现代码分割",
-                        '3、使用react-router-cache-route实现带缓存功能的路由',
-                        "4、重写shouldComponentUpdate来避免不必要的dom操作",
-                        "5、通过react-tiny-virtual-list来优化长列表"
-                    ]
-                },
-                {
-                    pName: '全中彩票App',
-                    func: ["1、北京单场、竞猜足球的开发和维护:使用 redux、ListView、lodash、graphql、 等技术;",
-                        "2、比分直播:使用了 react-native-sound，dataPicker 等技术;",
-                        "3、Submodule:是处理异步请求的库，git 引入该库，供项目调用;"
-                    ],
-                    question: ["1、redux : 使组件之间数据的通信和实现良好的代码结构;", "2、react-natvigation:实现页面跳转，传参;",
-                        '3、lodash:复杂的数组和对象的操作;',
-                        "4、ListView 性能优化:使用scrollRenderAheadDistance,removeClippedSubviews 等属性;",
-                        "5、sound:解决了安卓和 IOS 播放的不兼容;"
-                    ]
-                },
-                {
-                    pName: '全中彩票管理后台',
-                    func: [
-                        "整个后台管理的开发维护，使用了reactjs、react-router、fetch,socket-io,react-echar、ant degsin，lodash等"
-                    ],
-                    question: ["1、写了bagepage类，配置公共请求，实现了表单、table、操作按钮可配置性", "2、socket-io实现实时通讯", ]
-                },
-                {
-                    pName: '一元购App',
-                    func: [
-                        "首页和我的模块的开发维护，使用了reactjs、react-natvigation、fetch,redux,react-sagas、lodash等"
-                    ],
-                    question: ["1、react-sagas实现了复杂的 fetch 请求", "2、socket-io实现实时通讯", ]
-                },
+            {
+              year: "2018.6-2021.3",
+              company: "金恪集团",
+              job: "前端工程师",
+              duty: ["1、负责微信公众号的开发和维护", "2、负责后台管理的开发"],
+            },
+            {
+              year: "2017.3-2018.4",
+              company: "深圳好彩有限公司",
+              job: "前端工程师",
+              duty: [
+                "1、使用 React--native 开发移动端跨平台",
+                "2、使用antdesign、react-router-dom等搭建管理后台",
+                "3、负责后台管理的开发和维护，负责APP的开发和维护",
+                "4、使用 webpack 搭建框架",
+                "5、学习了Typescript 、react-redux 、react-saga",
+              ],
+            },
+            {
+              year: "2015.2-2017.3",
+              company: "易网互通(北京)有限公司",
+              job: "前端工程师",
+              duty: [
+                "1、负责微信公众号",
+                "2、负责官网和 webView",
+                "3、使用 React-native 开发移动端跨平台app",
+              ],
+            },
+            {
+              year: "2013.11-2015.1",
+              company: "河北新联动力电子商务有限公司",
+              job: "前端工程师",
+              duty: [
+                "1、负责公司官网和h5开发",
+                "2、网页制作及主流浏览器兼容问题的解决",
+                "3、后端处理和联调",
+              ],
+            },
+          ],
+        },
+        projectExperience: [
+          {
+            pName: "报单系统",
+            func: [
+              "整个后台管理的开发维护，使用了react hooks，react-router6.0，vite,antd等",
             ],
-            educationExperience: [{
-                year: '2011.9-2014.6',
-                school: '河北化工医药职业技术学院',
-                major: '软件技术'
-            }]
-        }
+            question: [
+              "1、使用vite2构建项目",
+              "2、使用react-router6.0实现路由",
+              "3、使用antd搭建页面",
+            ],
+          },
+          {
+            pName: "小云鹤微信公众号",
+            func: [
+              "整个公众号的开发维护，使用了react，redux，react-loadable等",
+            ],
+            question: [
+              "1、使用webpack4优化构建和加载性能",
+              "2、使用react-loadable实现代码分割",
+              "4、重写shouldComponentUpdate来避免不必要的dom操作",
+              "5、通过react-tiny-virtual-list来优化长列表",
+            ],
+          },
+          {
+            pName: "全中彩票App",
+            func: [
+              "1、北京单场、竞猜足球的开发和维护:使用 redux、ListView、lodash、graphql 等技术;",
+              "2、比分直播:使用了 react-native-sound，dataPicker 等技术;",
+              "3、Submodule:是处理异步请求的库，git 引入该库，供项目调用;",
+            ],
+            question: [
+              "1、redux : 使组件之间数据的通信和实现良好的代码结构;",
+              "2、react-natvigation:实现页面跳转，传参;",
+              "3、lodash:复杂的数组和对象的操作;",
+            ],
+          },
+          {
+            pName: "全中彩票管理后台",
+            func: [
+              "整个后台管理的开发维护，使用了reactjs、react-router、fetch,socket-io,react-echar、ant degsin，lodash等",
+            ],
+            question: [
+              "1、写了bagepage类，配置公共请求，实现了表单、table、操作按钮可配置性",
+              "2、socket-io实现实时通讯",
+            ],
+          },
+          {
+            pName: "一元购App",
+            func: [
+              "首页和我的模块的开发维护，使用了reactjs、react-natvigation、fetch,redux,react-sagas、lodash等",
+            ],
+            question: [
+              "1、react-sagas实现了复杂的 fetch 请求",
+            ],
+          },
+        ],
+        educationExperience: [
+          {
+            year: "2011.9-2014.6",
+            school: "河北化工医药职业技术学院",
+            major: "软件技术",
+          },
+        ],
+      };
     </script>
-</body>
-
+  </body>
 </html>
