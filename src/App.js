@@ -283,7 +283,7 @@ class App extends Component {
                     <p>github 有vite和webpack5搭建的框架;</p>
                     <p>vite-ts-react使用的新技术vite2，reacthooks,immer,router6.0,antd,ts,redux搭建的后台管理</p>
                     <p>react-node 使用nodejs，express,ts,jsonwebtoken,搭建的简易接口</p>
-                    <p>线上地址：http://8.142.136.225/ admin/13456 使用docker，jenkins，nginx等搭建</p>
+                    <p>线上地址：http://8.142.136.225/ admin/123456 使用docker，jenkins，nginx等搭建</p>
                   </div>
                 </div>
               </div>
