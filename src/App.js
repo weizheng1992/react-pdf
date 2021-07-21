@@ -110,9 +110,9 @@ class App extends Component {
                   4年 react /2年react native 开发经验:
                 </p>
                 <p className={styles.skillInfo}>
-                熟练应用:react-redux
-                  、react-saga、webpack、antdesign、lodash、graphql、axios、
-                  react-virtualized 等第三方库;
+                应用:react-redux
+                  、reudx-saga、webpack、antdesign、lodash、graphql、axios、
+                  tailwindcss 等第三方库;
                 </p>
                 <p className={styles.skillInfo}>
                 熟练 flex 布局，组件化，性能优化,Typescript,eslint,husky,vite,webpack 等;
