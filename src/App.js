@@ -229,7 +229,7 @@ class App extends Component {
                   <p>负责功能:</p>
 
                   <p className={styles.pSubinfo} >
-                  整个项目的开发和维护，使用koajs开发服务端读取设备检验数据，vue开发客户端展示结果等
+                  此项目是录入患者信息和仪器检测结果，结合产生相应的报告的后台管理系统。负责整个项目的开发和维护，使用koajs开发服务端，vue开发客户端等
                   </p>
                   <p>描述:</p>
                   <p className={styles.pSubinfo}>
@@ -250,6 +250,34 @@ class App extends Component {
                 <div className={`${styles.workInfo} `}>
                   <div className={styles.workYear} />
                   <div className={`${styles.workCompany} ${styles.diamondBox}`}>
+                    <span className={styles.diamondIcon} /> 先声诊断官网 https://www.simceredx.com/
+                  </div>
+                </div>
+                <div className={styles.workDuty}>
+                  <p>负责功能:</p>
+
+                  <p className={styles.pSubinfo} >
+                  负责整个官网的开发，后台管理，nodejs服务等
+                  </p>
+                  <p>描述:</p>
+                  <p className={styles.pSubinfo}>
+                  1、使用nestjs,prisma,graphql,TypeScript搭建服务端，
+                  </p>
+                  <p className={styles.pSubinfo}>
+                  2、解决了prisma在服务器部署，使用docker和prisma命令，实现部署、生成sql和拉sql等
+                  </p>
+                  <p className={styles.pSubinfo}>
+                  3、使用dotenv和prisma配置来使用不同环境数据库等。
+                  </p>
+                </div>
+              </div>
+              <div
+                className={styles.workExperience}
+                style={{ marginBottom: 15 }}
+              >
+                <div className={`${styles.workInfo} `}>
+                  <div className={styles.workYear} />
+                  <div className={`${styles.workCompany} ${styles.diamondBox}`}>
                     <span className={styles.diamondIcon} /> 小云鹤微信公众号
                   </div>
                 </div>
@@ -257,7 +285,7 @@ class App extends Component {
                   <p>负责功能:</p>
 
                   <p className={styles.pSubinfo} >
-                  整个公众号的开发维护，使用了react，redux，react-loadable等
+                  是一个小商城，有首页，分类，订单，我的。负责整个公众号的开发维护，使用了react，redux，react-loadable等
                   </p>
                   <p>描述:</p>
                   <p className={styles.pSubinfo}>
@@ -298,8 +326,6 @@ class App extends Component {
                   </div>
                 </div>
               ))}
-            </Row>
-            <Row style={{ marginTop: 20, textAlign: "left" }}>
               <div className={styles.titleBox}>
                 <div className={styles.titleHeader}> 个人评价</div>
                 <div className={styles.lineFlex}>
